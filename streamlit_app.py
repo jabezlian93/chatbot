@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-st.title("💬 Assistant Chatbot")
+st.title("Homie")
 
 openai_api_key = st.text_input("OpenAI API Key", type="password")
 if not openai_api_key:
